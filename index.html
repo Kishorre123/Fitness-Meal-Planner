@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS MEAL PLANNER</title>
+    <link rel="icon" href="images/icon.jpg">
+    
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    
+   <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"> Diet plan 🎯</a>
+
+        <nav class="navbar">
+            <a href="#home">home🏡</a>
+            <a href="#about">about🛈</a>
+            <a href="#diet">diet🥗</a>
+            <a href="#meal-plan-calories">calories♨️</a>
+            <a href="login.html">login👤</a>
+            <a href="register.html">register📋</a> 
+        </nav>
+
+        <div class="fas fa-bars" id="menu"></div>
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>welcome to the place where you plan your diet</h3>
+            <a href="https://www.eatingwell.com/article/290260/1-day-high-protein-meal-plan/#toc-breakfast" class="btn"> read more</a>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <h1 class="heading">about us</h1>
+
+        <div class="row">
+
+            <div class="content">
+                <h3>My mission is to give you a guideline for your health.</h3>
+                <p> My mission to provide health guidelines is essential, and fitness meal planning plays a vital role. Proper meal planning ensures you fuel your body with the right nutrients to support physical activity, promote muscle recovery, and sustain energy levels. By incorporating balanced meals rich in lean proteins, whole grains, healthy fats, and a variety of fruits and vegetables, individuals can optimize their fitness journey while fostering overall well-being.</p><a href="#" class="btn"> read more</a>
+            </div>
+
+            <div class="image">
+                <img src="images/about.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="diet" id="diet">
+
+        <h1 class="heading">diet plan</h1>
+
+        <ul class="controls">
+            <li class="buttons active" data-filter="all">
+                <img src="images/all.png" alt="">
+                <h3>all</h3>
+            </li>
+            <li class="buttons" data-filter="breakfast">
+                <img src="images/breakfast.png" alt="">
+                <h3>breakfast</h3>
+            </li>
+            <li class="buttons" data-filter="lunch">
+                <img src="images/lunch.png" alt="">
+                <h3>lunch</h3>
+            </li>
+            <li class="buttons" data-filter="dinner">
+                <img src="images/dinner.png" alt="">
+                <h3>dinner</h3>
+            </li>
+        </ul>
+
+        <div class="image-container">
+
+            <div class="box lunch">
+                <div class="image">
+                    <img src="images/diet4.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Mixed vegetable curry</a>
+                    <p>1 cup mixed vegetable curry</p>
+                    <p>Calories: 188cal</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 30 DEC, 2024 </a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box breakfast">
+                <div class="image">
+                    <img src="images/diet1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="https://www.eatingwell.com/recipe/250987/broccoli-parmesan-cheese-omelet/" class="link">Oats porridge</a>
+                    <p>Oats porridge with almond milk and chopped fruits</p>
+                    <p>Calories: 124/215cal</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 30 DEC, 2024 </a>
+                        <a href="#"><i class="fas fa-user"></i> By Admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box breakfast">
+                <div class="image">
+                    <img src="images/diet2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">A Cup of black coffee</a>
+                    <p>A beverage made by brewing ground coffee beans with hot water, served without any added milk or sugar</p>
+                    <p>Calories: 2 calories per 8 ounces (240 mL)</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 30 DEC, 2024</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box breakfast">
+                <div class="image">
+                    <img src="images/diet3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Boiled Egg and Roated Chana</a>
+                    <p>A boiled egg or a handful of roasted chana</p>
+                    <p>Calories: A large boiled egg has about 77 calories and roasted chana has about 269 calories in a cup</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 30 DEC, 2024 </a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box lunch">
+                <div class="image">
+                    <img src="images/diet5.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Steamed rice</a>
+                    <p>1 small bowl of steamed rice</p>
+                    <p>Calories: 88cal in 100grams</p>
+
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 30 DEC, 2024 </a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box lunch">
+                <div class="image">
+                    <img src="images/diet10.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Grilled chicken/Paneer</a>
+                    <p>Grilled chicken/Paneer with brown rice and steamed vegetables.</p>
+                    <p>Calories: 480cal per serving</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 30 DEC, 2024 </a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box dinner">
+                <div class="image">
+                    <img src="images/diet6.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Grilled fish</a>
+                    <p>Grilled fish or tofu (if vegetarian)</p>
+                    <p>Calories: A cup of grilled tofu (about 240 grams) contains around 346 calories or 100g of tofu contains about 146 calories</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 30 DEC, 2024 </a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dinner">
+                <div class="image">
+                    <img src="images/diet8.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Palak paneer</a>
+                    <p>1 cup palak paneer (spinach with cottage cheese)</p>
+                    <p>Calories: between 340 and 369 calories</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 30 DEC, 2024 </a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dinner">
+                <div class="image">
+                    <img src="images/diet7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Roti</a>
+                    <p>1 multigrain roti</p>
+                    <p>Calories: 135cal</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 30 DEC, 2024 </a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dinner">
+                <div class="image">
+                    <img src="images/diet9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Vegetable soup</a>
+                    <p>Mixed vegetable soup with a side of whole wheat toast.</p>
+                    <p>Calories: Around 150 calories per cup and Approximately 80 calories per slice.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 30 DEC, 2024 </a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+    <section class="meal-plan-calories" id="meal-plan-calories">
+    
+        <h1 class="heading">Calories by Meal Plan</h1>
+
+    
+        <div class="meal-selection">
+    
+            <label for="meal-name">Meal Name:</label>
+    
+            <select id="meal-name">
+    
+                <option> breakfast </option>
+                <option> lunch </option>
+                <option> dinner </option>   
+            </select>
+            <label for="meal-calories-input">Calories:</label>
+            <input type="number" id="meal-calories-input" placeholder="Enter calories" required>
+            <button class="btn" id="add-meal-btn">Add Meal</button>
+            <button class="btn" id="reset-meals-btn">Reset</button>
+        </div>
+        <div class="added-meals">
+            <h2>Added Meals:</h2>
+            <ul id="meal-list"></ul>
+        </div>
+        <div class="result">
+            <h2>Total Calories: <span id="total-calories">0</span> kcal</h2>
+        </div>
+        <canvas id="mealChart" width="600" height="200"></canvas>
+    </section>
+    
+    <section class="newsletter">
+
+        <div class="content">
+            <h1 class="heading">subscribe now</h1>
+            <p>Take the guesswork out of healthy eating with our Fitness Meal Planner subscription! Get personalized meal plans tailored to your fitness goals—whether it's weight loss, muscle gain, or balanced nutrition. Enjoy delicious, easy-to-make recipes, complete with calorie counts and macro breakdowns. Subscribe now to fuel your journey to a healthier, fitter you!</p>
+           <form action="">
+                <input type="email" placeholder="enter your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i>home</a>
+                <a href="#about"> <i class="fas fa-arrow-right"></i>about</a>
+                <a href="#diet"> <i class="fas fa-arrow-right"></i>diet</a>
+                <a href="#blog"> <i class="fas fa-arrow-right"></i>blog</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>my account</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>ask questions</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>terms of use</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>privacy policy</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i>+91 91234 *****</a>
+                <a href="#"> <i class="fas fa-phone"></i>+91 ***** 87654</a>
+                <a href="#"> <i class="fas fa-envelope"></i>raki37641@gmail.com</a>
+                <a href="#"> <i class="fas fa-map"></i>APK-626101</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://en-gb.facebook.com/login/"> <i class="fab fa-facebook-f"></i>facebook</a>
+                <a href="https://www.instagram.com/"> <i class="fab fa-instagram"></i>instagram</a>
+                <a href="https://www.linkedin.com/home"> <i class="fab fa-linkedin"></i>linkedin</a>
+                <a href="https://github.com/"> <i class="fab fa-github"></i>github</a>
+            </div>
+
+        </div>
+<center>
+        <div>2025 FitMealpartner.in All rights reserved.</div>
+</center>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
